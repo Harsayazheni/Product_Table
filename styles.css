@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(246, 225, 225);
+    font-family: 'Times New Roman', Times, serif;
+}
+table{
+    margin: auto;
+    border: 2px;
+    border-collapse: collapse;
+    width: 80%;
+    
+}
+th{
+    background-color: #af4c63;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+td{
+    border: 1px solid #af4c63;
+    padding: 10px;
+}
+tr:hover{
+    background-color: #af4c63;
+}
+tr:nth-child(even) {
+    background-color: #da8890;
+}
+caption{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
